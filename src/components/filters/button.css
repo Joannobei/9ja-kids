@@ -1,0 +1,12 @@
+@media only screen and (max-width: 800px) {
+    .buttons {
+        font-size: xx-small;
+
+    }
+
+    .search-box {
+        padding: 0.1rem;
+    }
+
+
+}

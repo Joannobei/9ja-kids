@@ -21,14 +21,20 @@
 @media only screen and (max-width: 800px) {
     .overlay {
         height: 5vh;
+        padding-left: 1rem;
 
     }
 
     .overlay h1 {
-        font-size: small;
+        font-size: 0.7rem;
     }
 
     .overlay p {
         font-size: small;
+    }
+
+    .button {
+        padding: 0.5rem 1rem;
+        font-size: 0.7rem;
     }
 }

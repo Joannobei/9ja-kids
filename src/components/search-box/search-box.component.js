@@ -4,8 +4,10 @@ import 'react-bootstrap';
 
 
 const SearchBox = ({ className, placeholder, onChangehandler }) => (
-    <div className="  text-center">
-        <h3 className='app-title'> 9jakids Game Catalog</h3>
+
+
+    <div className="  ">
+
         <input
             className={`search-box  ${className}`}
             type='search'

@@ -1,0 +1,25 @@
+.overlaynews {
+    padding: 3% 0 0 50%;
+    color: rgb(22, 31, 71);
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    .overlaynews {
+        height: 5vh;
+        /* padding: 2rem 1rem 0 15rem; */
+
+
+    }
+
+    .overlaynews h1 {
+        font-size: large;
+    }
+
+    .subform {}
+
+
+
+}

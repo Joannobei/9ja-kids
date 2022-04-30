@@ -4,22 +4,23 @@ import {
     NavDropdown, Form, Button,
     FormControl, Nav,
 } from 'react-bootstrap';
+import './nav.css';
 
 function Navigation() {
     return (
         <div>
-            <Navbar bg="light" expand="lg">
+            <Navbar className='p-3 navv bg-light rounded-3' expand="lg">
                 <Container fluid>
-                    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+                    <Navbar.Brand href="#">9JAKIDS</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
-                            className="me-auto my-2 my-lg-0 d-flex justify-content-end"
-                            style={{ maxHeight: '100px' }}
-                            navbarScroll
+                            className="ms-auto  d-flex "
                         >
                             <Nav.Link href="#action1">Home</Nav.Link>
                             <Nav.Link href="#action2">Link</Nav.Link>
+                            <Nav.Link href="#action2">About Us</Nav.Link>
+                            <Nav.Link href="#action2">Contact</Nav.Link>
 
 
                         </Nav>

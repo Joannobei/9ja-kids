@@ -68,14 +68,14 @@ function Footer(props) {
 
                 <Container className='d-flex yfooter position-absolute bottom-0 start-50 translate-middle-x'>
                     <div className='d-flex me-auto'>
-                        <p>test</p>
+                        <p className='mx-2'>test</p>
                         <p className='mx-2'>test</p>
                         <p className='mx-2'>test</p>
                     </div>
 
                     <div className='d-flex justify-content-end'>
                         <div className='d-flex '>
-                            <FontAwesomeIcon className="" icon={faInstagram}></FontAwesomeIcon>
+                            <FontAwesomeIcon className="mx-2" icon={faInstagram}></FontAwesomeIcon>
                             <FontAwesomeIcon className=" mx-2" icon={faTwitter}></FontAwesomeIcon>
                             <FontAwesomeIcon className=" mx-2" icon={faFacebook}></FontAwesomeIcon>
 

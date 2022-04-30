@@ -1,4 +1,3 @@
-
 import './App.css';
 import { useState, useEffect } from 'react';
 import CardList from './components/card-list/cardlist.component';
@@ -55,11 +54,14 @@ const App = () => {
     <div>
       <Navigation />
       <Banner />
-      <SearchBox
-        onChangehandler={onSearchChange}
-        placeholder='search games'
-        className=' game search-box' />
-      <Button filter={filterFunc} button={buttons} />
+      <h2 className='app-title text-center'> 9jakids Game Catalog</h2>
+      <div className='d-flex justify-content-center '>
+        <SearchBox
+          onChangehandler={onSearchChange}
+          placeholder='search games'
+          className=' game search-box' />
+        <Button filter={filterFunc} button={buttons} />
+      </div>
       <CardList monsters={filteredGames} />
       <Newsletter />
       <Footer />

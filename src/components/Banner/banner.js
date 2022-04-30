@@ -5,16 +5,16 @@ import './banner.css';
 
 function Banner() {
     return (
-        <div className='w-100'>
+        <div className=''>
             <Card className=" text-white crd " >
                 <Card.Img src="../../Top Banner.png" alt="Card image" />
-                <Card.ImgOverlay className=' overlay container '>
+                <Card.ImgOverlay className=' overlay container'>
 
                     <p>Learning is Fun</p>
                     <h1> Learn New Skills Online <br /> Find Best Course. </h1>
                     <Card.Text className='banner-text d-flex justify-content'>
-                        <Button className='' variant="secondary">Register</Button>{' '}
-                        <Button className='ms-3' variant="outline-secondary">Login</Button>{' '}
+                        <Button className='button' variant="secondary">Register</Button>{' '}
+                        <Button className='ms-3 button' variant="outline-secondary">Login</Button>{' '}
                     </Card.Text>
 
 

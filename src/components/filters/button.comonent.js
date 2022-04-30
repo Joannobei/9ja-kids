@@ -1,5 +1,6 @@
 
-import React from "react"
+import React from "react";
+import './button.css';
 
 const Button = ({ button, filter }) => {
 
@@ -9,7 +10,7 @@ const Button = ({ button, filter }) => {
 
             {
                 button.map((cat, i) => {
-                    return <button className='mx-3' type="button" onClick={() => filter(cat)} key={cat}>
+                    return <button className='mx-3 rounded-3 text-center buttons' type="button" onClick={() => filter(cat)} key={cat}>
                         {cat}
                     </button>
                 }
