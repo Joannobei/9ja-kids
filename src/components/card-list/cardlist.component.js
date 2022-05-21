@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import './cardlist.css'
 
 const CardList = ({ monsters }) => {
 
@@ -7,7 +8,7 @@ const CardList = ({ monsters }) => {
 
         monsters.map((monster) => (
             <Col >
-                <div key={monster.GameImage} className="card mt-3" style={{ width: 20 + 'rem' }} >
+                <div key={monster.GameImage} className="card card-list mt-3" style={{ width: 20 + 'rem' }} >
                     <img src={monster.GameImage} className="card-img-top" alt="..." />
                     <div className="card-body" >
                         <h5 className='card-title'>{monster.GameTitle}</h5>

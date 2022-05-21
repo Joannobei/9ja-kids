@@ -1,12 +1,19 @@
+.search-box {
+
+    /* margin: 0.1 rem 0; */
+    padding: 5px 15px;
+    height: 2.6rem;
+    width: auto;
+    border: 0.1rem solid #C4C4C4;
+    border-radius: 0.2rem;
+}
+
 @media only screen and (max-width: 800px) {
     .buttons {
         font-size: xx-small;
-
+        display: flex;
     }
 
-    .search-box {
-        padding: 0.1rem;
-    }
 
 
 }
